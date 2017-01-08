@@ -25,6 +25,30 @@ package de.tavendo.autobahn;
  */
 public class WampMessage {
 
+   public static final int MESSAGE_TYPE_HELLO = 1;,
+   public static final int MESSAGE_TYPE_WELCOME = 2;,
+   public static final int MESSAGE_TYPE_ABORT = 3;,
+   public static final int MESSAGE_TYPE_CHALLENGE = 4;,
+   public static final int MESSAGE_TYPE_AUTHENTICATE = 5;,
+   public static final int MESSAGE_TYPE_GOODBYE = 6;,
+   public static final int MESSAGE_TYPE_ERROR = 8;,
+   public static final int MESSAGE_TYPE_PUBLISH = 16;,
+   public static final int MESSAGE_TYPE_PUBLISHED = 17;,
+   public static final int MESSAGE_TYPE_SUBSCRIBE = 32;,
+   public static final int MESSAGE_TYPE_SUBSCRIBED = 33;,
+   public static final int MESSAGE_TYPE_UNSUBSCRIBE = 34;,
+   public static final int MESSAGE_TYPE_UNSUBSCRIBED = 35;,
+   public static final int MESSAGE_TYPE_EVENT = 36;,
+   public static final int MESSAGE_TYPE_CALL = 48;,
+   public static final int MESSAGE_TYPE_CANCEL = 49;,
+   public static final int MESSAGE_TYPE_RESULT = 50;,
+   public static final int MESSAGE_TYPE_REGISTER = 64;,
+   public static final int MESSAGE_TYPE_REGISTERED = 65;,
+   public static final int MESSAGE_TYPE_UNREGISTER = 66;,
+   public static final int MESSAGE_TYPE_UNREGISTERED = 67;,
+   public static final int MESSAGE_TYPE_INVOCATION = 68;,
+   public static final int MESSAGE_TYPE_INTERRUPT = 69;,
+   public static final int MESSAGE_TYPE_YIELD = 70;
 
 
    /// Base message class.
